@@ -9,6 +9,7 @@
 
 
 **Skeleton Dataset Path:** ./data/new_data_plus_2/train_data/**.csv
+
 **Skeleton Dataset introduction:**
 |        |    0 |   1 |   2 |   7 |   8 |   9 |
 |:-------|-----:|-----:|-----:|-----:|-----:|-----:|
