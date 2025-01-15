@@ -1,15 +1,15 @@
 # MF-GLFGCN:Multi-stream global-local fusion graph convolutional network for skeleton-based gait recognition
-We have open-source gait skeleton data collected using Kinect depth cameras for future research and reference.
+*We have open-source gait skeleton data collected using Kinect depth cameras for future research and reference.*
 
 ## The data collection scene:
 ![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/scene.png) 
 
-### Visualization of collected data:
+## Visualization of collected data:
 ![img](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/video1.gif)
 
 
-Skeleton Dataset Path: ./data/new_data_plus_2/train_data/**.csv
-Skeleton Dataset introduction: \
+**Skeleton Dataset Path:** ./data/new_data_plus_2/train_data/**.csv
+**Skeleton Dataset introduction:**
 |        |    0 |   1 |   2 |   7 |   8 |   9 |
 |:-------|-----:|-----:|-----:|-----:|-----:|-----:|
 | 0 | -74.02 | -310.438 | 1833.24   | -80.907 | -492.666 | 1821.558 |
@@ -23,7 +23,7 @@ Skeleton Dataset introduction: \
 Each row represents a frame of skeleton data, Each of the three columns represents a joint with 3D coordinates in millimeters.
 See the link for a detailed skeleton introduction.[body-joints](https://learn.microsoft.com/zh-cn/previous-versions/azure/kinect-dk/body-joints )
 
-The framework of the Multi-Stream Global-Local Fusion Graph Convolutional Network (MS-GLFGCN):
+## The framework of the Multi-Stream Global-Local Fusion Graph Convolutional Network (MS-GLFGCN):
 ![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/model.png)
 
 This repository contains the PyTorch code for:
