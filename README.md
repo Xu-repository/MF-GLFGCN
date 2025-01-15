@@ -1,10 +1,10 @@
 # MF-GLFGCN:Multi-stream global-local fusion graph convolutional network for skeleton-based gait recognition
 We have open-source gait skeleton data collected using Kinect depth cameras for future research and reference.
 
-##The data collection scene:
+## The data collection scene:
 ![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/scene.png) 
 
-###Visualization of collected data:
+### Visualization of collected data:
 ![img](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/video1.gif)
 
 
