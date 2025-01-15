@@ -1,10 +1,10 @@
 # MF-GLFGCN:Multi-stream global-local fusion graph convolutional network for skeleton-based gait recognition
 We have open-source gait skeleton data collected using Kinect depth cameras for future research and reference.
 
-The data collection scene:
+##The data collection scene:
 ![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/scene.png) 
 
-Visualization of collected data:
+###Visualization of collected data:
 ![img](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/video1.gif)
 
 
@@ -21,7 +21,7 @@ Skeleton Dataset introduction: \
 | 6 | -18.434 | -296.251 | 1819.715 | -28.079 | -481.906 |  1804.226 |
 
 Each row represents a frame of skeleton data, Each of the three columns represents a joint with 3D coordinates in millimeters.
-See the link for a detailed skeleton introduction.[link](https://learn.microsoft.com/zh-cn/previous-versions/azure/kinect-dk/body-joints )
+See the link for a detailed skeleton introduction.[body-joints](https://learn.microsoft.com/zh-cn/previous-versions/azure/kinect-dk/body-joints )
 
 The framework of the Multi-Stream Global-Local Fusion Graph Convolutional Network (MS-GLFGCN):
 ![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/model.png)
