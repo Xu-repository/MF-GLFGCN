@@ -27,7 +27,16 @@ To train the model you can run the `train.py` script. To see all options run:
 cd src
 export PYTHONPATH=${PWD}:$PYTHONPATH
 
-python3 train.py --help
+python3 train.py ./data/new_data_plus_2/train_data \
+                 --./data/new_data_plus_2/valid_data \
+                 --batch_size 16 \
+                 --batch_size_validation 16 \
+                 --embedding_layer_size 68 \
+                 --epochs 100\
+                 --learning_rate 1e-5 \
+                 --temp 0.01 \
+	               --use_multi_branch \
+                 --network_name resgcn-n39-r8
 ```
 
 Check `experiments/1_train_*.sh` to see the configurations used in the paper. 
@@ -49,7 +58,6 @@ Top-1 Accuracy per probe angle excluding identical-view cases for the provided m
 Parameter :0.51M	FLOPs:7.52G	Mean Acc.:98.53%	Max Acc.:98.53%
 
 ## Licence & Acknowledgement
-GaitPose itself is released under the MIT License (see LICENSE).
 
 The following parts of the code are borrowed from other projects. Thanks for their wonderful work!
 - Object Detector: [eriklindernoren/PyTorch-YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3)
@@ -57,5 +65,6 @@ The following parts of the code are borrowed from other projects. Thanks for the
 - ST-GCN Model: [yysijie/st-gcn](https://github.com/yysijie/st-gcn)
 - ResGCNv1 Model: [yfsong0709/ResGCNv1](https://github.com/yfsong0709/ResGCNv1)
 - SupCon Loss: [HobbitLong/SupContrast](https://github.com/HobbitLong/SupContrast)
-- GaitGraph:(https://github.com/tteepe/GaitGraph)
+- GaitGraph: [tteepe/GaitGraph](https://github.com/tteepe/GaitGraph)
+- OpenGait: [ShiqiYu/OpenGait](https://github.com/ShiqiYu/OpenGait)
 
