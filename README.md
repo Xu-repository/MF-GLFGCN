@@ -8,17 +8,13 @@ Visualization of collected data:
 ![img](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/video1.gif)
 
 
-Skeleton Dataset Path: ./data/new_data_plus_2/train_data/**.csv \<br>  
-Skeleton Dataset introduction:
-|     | 0    | 1   |2   |7   |8   |9   |
-|——-|——-|—–|
-|  0 |  -74.02 | -310.438 |1833.24 |-80.907 |-492.666 |1821.558 |
-| 1  |  -64.242 | -295.929 |1822.069 |-70.83 |-478.592 | 1810.891|
-|   |   |  | | | | |
-|   |   |  | | | | |
-|   |   |  | | | | |
-|   |   |  | | | | |
-|   |   |  | | | | |
+Skeleton Dataset Path: ./data/new_data_plus_2/train_data/**.csv \ 
+Skeleton Dataset introduction: \
+|        |    0 |   1 |   2 |   7 |   8 |   9 |
+|:-------|-----:|-----:|-----:|-----:|-----:|-----:|
+| 0 | 85.3 | 88.5 | 91   | 92.5 | 87.2 | 86.5 |
+| 1 | 75.8 | 76.7 | 75.9 | 76.1 | 71.4 | 73.9 |
+| 2 | 69.6 | 66.1 | 68.8 | 67.2 | 64.5 | 62   |
 
 	0	1	  2	 	7	8	  9
 0	-74.02	-310.438  1833.24	-80.907	-492.666  1821.558
