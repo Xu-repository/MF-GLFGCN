@@ -2,16 +2,16 @@
 We have open-source gait skeleton data collected using Kinect depth cameras for future research and reference.
 
 The data collection scene:
-![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/scene.png)
+![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/scene.png) 
 
 Visualization of collected data:
 ![img](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/video1.gif)
 
 
-Skeleton Dataset Path: ./data/new_data_plus_2/train_data/**.csv
+Skeleton Dataset Path: ./data/new_data_plus_2/train_data/**.csv \<br>  
 Skeleton Dataset introduction:
 |     | 0    | 1   |2   |7   |8   |9   |
-|——|——|—–|
+|——-|——-|—–|
 |  0 |  -74.02 | -310.438 |1833.24 |-80.907 |-492.666 |1821.558 |
 | 1  |  -64.242 | -295.929 |1822.069 |-70.83 |-478.592 | 1810.891|
 |   |   |  | | | | |
