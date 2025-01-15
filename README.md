@@ -1,4 +1,4 @@
-# MF-GLFGCN
+# MF-GLFGCN:Multi-stream global-local fusion graph convolutional network for skeleton-based gait recognition
 The data collection scene:
 ![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/scene.png)
 
