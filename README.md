@@ -37,7 +37,7 @@ First, create a virtual environment or install dependencies directly with:
 pip3 install -r requirements.txt
 ```
 ### Data preparation
-The preprocessed skeleton sequence is placed in ./data
+The preprocessed skeleton sequence is placed in ./data/new_data_plus_2
 
 ### Train
 To train the model you can run the `train.py` script. To see all options run:
