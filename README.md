@@ -1,4 +1,8 @@
 # MF-GLFGCN
+The data collection scene:
+![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/scene.png)
+
+Visualization of collected data:
 
 This repository contains the PyTorch code for:
 
