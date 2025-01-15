@@ -10,9 +10,9 @@
 ## The framework of the Multi-Stream Global-Local Fusion Graph Convolutional Network (MS-GLFGCN):
 ![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/model.png)
 
-**Skeleton Dataset Path:** ./data/new_data_plus_2/train_data/*.csv
+**Skeleton dataset path:** ./data/new_data_plus_2/train_data/*.csv
 
-**Skeleton Dataset introduction:**
+**introduction to skeleton dataset :**
 |        |    0 |   1 |   2 |   7 |   8 |   9 |
 |:-------|-----:|-----:|-----:|-----:|-----:|-----:|
 | 0 | -74.02 | -310.438 | 1833.24   | -80.907 | -492.666 | 1821.558 |
