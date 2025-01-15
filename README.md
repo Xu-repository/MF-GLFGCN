@@ -82,6 +82,11 @@ GaitSet_MS:The average accuracy of GaitSet with multi-stream gait graph on CASIA
 | BG#1-2 | 63.5 | 69.2 | 68.5 | 68.1 | 65.5 | 64.3 |  66.6   |  68.1 |  65.4 |  68.1 |  55.7 |   65.73 |
 | CL#1-2 | 50.9 | 56.7 | 55.2 | 51.9 | 53.3 | 52   |  52.1 |  49.6 |  49.5 |  50.6 |  44.1 |   51.45 |
 
+The average accuracy of GaitSet with multi-stream gait graph on OU-MVLP.
+|        |    0 |   15 |   30 |   45 |   60 |   75 |   90 |   180 |   195 |   210 |   225 | 240| 255| 270|   mean |
+|:-------|-----:|-----:|-----:|-----:|-----:|-----:|------:|------:|------:|------:|------:|-------:|-------:|-------:|-------:|
+| Acc. | 41.99 | 56.23 | 61.88   | 64.39 | 62.43 | 59.17 |  52.76 |  36.75 | 47.63 | 47.02 |  59.63 |   58.44 | 54.9| 48.84|53.72 |
+
 ## Licence & Acknowledgement
 
 The following parts of the code are borrowed from other projects. Thanks for their wonderful work!
