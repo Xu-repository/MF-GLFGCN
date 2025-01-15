@@ -1,5 +1,5 @@
 # MF-GLFGCN:Multi-stream global-local fusion graph convolutional network for skeleton-based gait recognition
-*We open source the model, method and gait skeleton data in the paper for everyone's reference.*
+*We open source all the models, methods and datasets mentioned in the paper, and hope to provide some reference value for gait recognition research.*
 
 ## The data collection scene:
 ![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/scene.png) 
