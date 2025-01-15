@@ -8,9 +8,6 @@ Visualization of collected data:
 The framework of the Multi-Stream Global-Local Fusion Graph Convolutional Network (MS-GLFGCN):
 ![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/model.png)
 
-The structure of GaitSet_MS:
-![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/GaitSet_MS.png)
-
 This repository contains the PyTorch code for:
 
 ### Prerequisites
