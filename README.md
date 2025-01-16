@@ -2,12 +2,10 @@
 *We open source all the models, methods and datasets mentioned in the paper, and hope to provide some reference value for gait recognition research.*
 
 ## Visualization of collected data:
-<div align="center">
-       <img src="./img/video1.gif"/>
-</div>
+![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/video1.gif)
 
 ## The data collection scene:
-<img src="./img/scene.png" alt="walking" />
+![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/scene.png)
 
 ## The framework of the Multi-Stream Global-Local Fusion Graph Convolutional Network (MS-GLFGCN):
 ![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/model.png)
