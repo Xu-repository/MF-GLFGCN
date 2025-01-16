@@ -6,7 +6,7 @@
 
 ## Visualization of collected data:
 <div align="center">
-       <img src="[./assets/probe1-After.gif](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/video1.gif)"  alt="probe1-After" />
+       <img src="https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/video1.gif)"  alt="probe1-After" />
 </div>
 
 ## The framework of the Multi-Stream Global-Local Fusion Graph Convolutional Network (MS-GLFGCN):
