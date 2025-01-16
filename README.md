@@ -12,8 +12,8 @@
 cd ./data/new_data_plus_2/train_data/*.csv
 ```
 ### Skeleton dataset analysis:
-take the ../train_data/0.csv file as an example.
-|        |    0 |   1 |   2 |   4 |   5 |   6 | ... |
+take part of the ../train_data/0.csv file as an example.
+|        |    0 |   1 |   2 |   4 |   5 |   6 |
 |:-------|-----:|-----:|-----:|-----:|-----:|-----:|
 | 0 | -74.02 | -310.438 | 1833.24   | -80.907 | -492.666 | 1821.558 |
 | 1 | -64.242 | -295.929 | 1822.069 | -70.83 | -478.592 | 1810.891 |
@@ -22,7 +22,6 @@ take the ../train_data/0.csv file as an example.
 | 4 | -32.085 | -290.424 | 1830.682 | -41.851 | -476.189 | 1814.108  |
 | 5 | -19.257 | -292.719 | 1823.502 | -31.681 | -477.564 | 1806.558  |
 | 6 | -18.434 | -296.251 | 1819.715 | -28.079 | -481.906 |  1804.226 |
-| ... | ... | ... | ... | ... | ... |  ... |
 
 Each row represents a frame of skeleton data, Each of the three columns represents a joint with 3D coordinates(x, y and z axis) in millimeters.
 See the link for a detailed skeleton data introduction.[body-joints](https://learn.microsoft.com/en-us/previous-versions/azure/kinect-dk/body-joints )
