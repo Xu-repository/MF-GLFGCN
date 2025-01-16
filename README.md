@@ -53,8 +53,7 @@ python3 train.py ./data/new_data_plus_2/train_data \
                  --epochs 100\
                  --learning_rate 1e-5 \
                  --temp 0.01 \
-	         --use_multi_branch \
-                 --network_name resgcn-n39-r8
+	         --use_multi_branch\
 ```
 
 Check `experiments/1_train_*.sh` to see the configurations used in the paper. 
