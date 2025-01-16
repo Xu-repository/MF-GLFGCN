@@ -74,7 +74,7 @@ python3 evaluate.py --help
 ### Main Results
 **Model1：*MS-GLFGCN***:&nbsp;The results of the moedl on the skeleton dataset.
 
-Parameter :0.51M &emsp;	FLOPs:7.52G&emsp;	Mean Acc.:98.53%&emsp;	Max Acc.:98.53%&emsp;\
+Parameter :&nbsp;0.51M &emsp;	FLOPs:&nbsp;7.52G&emsp;	Mean Acc.:&nbsp;98.53%&emsp;	Max Acc.:&nbsp;98.53%&emsp;\
 \
 **Model2：*GaitSet_MS***:&nbsp;The average accuracy of GaitSet with multi-stream gait graph on the skeleton-based CASIA-B.
 |        |    0 |   18 |   36 |   54 |   72 |   90 |   108 |   126 |   144 |   162 |   180 |   mean |
