@@ -2,7 +2,10 @@
 *We open source all the models, methods and datasets mentioned in the paper, and hope to provide some reference value for gait recognition research.*
 
 ## Visualization of collected data:
-<img src="./img/video1.gif">
+<img src="">
+<div align="center">
+       <img src="./img/video1.gif"/>
+</div>
 
 ## The data collection scene:
 <img src="./img/scene.png" alt="walking" />
