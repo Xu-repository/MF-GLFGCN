@@ -12,7 +12,7 @@
 cd ./data/new_data_plus_2/train_data/*.csv
 ```
 ### Skeleton dataset analysis:
-take part of the ../train_data/0.csv file as an example.
+Taking part of the ../train_data/0.csv file as an example.
 |        |    0 |   1 |   2 |   4 |   5 |   6 |
 |:-------|-----:|-----:|-----:|-----:|-----:|-----:|
 | 0 | -74.02 | -310.438 | 1833.24   | -80.907 | -492.666 | 1821.558 |
