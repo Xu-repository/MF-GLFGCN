@@ -7,9 +7,6 @@
 ## The data collection scene:
 ![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/scene.png)
 
-## The framework of the Multi-Stream Global-Local Fusion Graph Convolutional Network (MS-GLFGCN):
-![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/model.png)
-
 **Skeleton dataset path:** ./data/new_data_plus_2/train_data/*.csv
 
 **introduction to skeleton dataset :**
@@ -25,6 +22,9 @@
 
 Each row represents a frame of skeleton data, Each of the three columns represents a joint with 3D coordinates in millimeters.
 See the link for a detailed skeleton introduction.[body-joints](https://learn.microsoft.com/en-us/previous-versions/azure/kinect-dk/body-joints )
+
+## The framework of the Multi-Stream Global-Local Fusion Graph Convolutional Network (MS-GLFGCN):
+![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/model.png)
 
 This repository contains the PyTorch code for:
 
