@@ -24,7 +24,7 @@
 | 6 | -18.434 | -296.251 | 1819.715 | -28.079 | -481.906 |  1804.226 |
 
 Each row represents a frame of skeleton data, Each of the three columns represents a joint with 3D coordinates in millimeters.
-See the link for a detailed skeleton introduction.[body-joints](https://learn.microsoft.com/zh-cn/previous-versions/azure/kinect-dk/body-joints )
+See the link for a detailed skeleton introduction.[body-joints](https://learn.microsoft.com/en-us/previous-versions/azure/kinect-dk/body-joints )
 
 This repository contains the PyTorch code for:
 
