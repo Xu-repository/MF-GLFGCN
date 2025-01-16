@@ -29,8 +29,7 @@ See the link for a detailed skeleton data introduction.[body-joints](https://lea
 ## The framework of the Multi-Stream Global-Local Fusion Graph Convolutional Network (MS-GLFGCN):
 ![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/model.png)
 
-This repository contains the PyTorch code for:
-
+## Reproduction process
 ### Prerequisites
 - Python >= 3.6
 - CUDA >= 10
