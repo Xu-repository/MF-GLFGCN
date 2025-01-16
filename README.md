@@ -7,9 +7,11 @@
 ## The data collection scene:
 ![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/scene.png)
 
-**Skeleton dataset path:** ./data/new_data_plus_2/train_data/*.csv
-
-**Introduction to skeleton dataset:**
+### Skeleton dataset path: 
+```shell
+cd ./data/new_data_plus_2/train_data/*.csv
+```
+### Introduction to skeleton dataset:
 |        |    0 |   1 |   2 |   4 |   5 |   6 |
 |:-------|-----:|-----:|-----:|-----:|-----:|-----:|
 | 0 | -74.02 | -310.438 | 1833.24   | -80.907 | -492.666 | 1821.558 |
@@ -20,8 +22,8 @@
 | 5 | -19.257 | -292.719 | 1823.502 | -31.681 | -477.564 | 1806.558  |
 | 6 | -18.434 | -296.251 | 1819.715 | -28.079 | -481.906 |  1804.226 |
 
-Each row represents a frame of skeleton data, Each of the three columns represents a joint with 3D coordinates in millimeters.
-See the link for a detailed skeleton introduction.[body-joints](https://learn.microsoft.com/en-us/previous-versions/azure/kinect-dk/body-joints )
+Each row represents a frame of skeleton data, Each of the three columns represents a joint with 3D coordinates(x, y and z axis) in millimeters.
+See the link for a detailed skeleton data introduction.[body-joints](https://learn.microsoft.com/en-us/previous-versions/azure/kinect-dk/body-joints )
 
 ## The framework of the Multi-Stream Global-Local Fusion Graph Convolutional Network (MS-GLFGCN):
 ![image](https://github.com/Xu-repository/MF-GLFGCN/blob/master/img/model.png)
@@ -69,10 +71,10 @@ Evaluate the models using `evaluate.py` script. To see all options run:
 python3 evaluate.py --help
 ```
 
-## Main Results
+### Main Results
 **MS-GLFGCN**:Top-1 Accuracy per probe angle excluding identical-view cases for the provided models on dataset.
 
-Parameter :0.51M	FLOPs:7.52G	Mean Acc.:98.53%	Max Acc.:98.53%
+Parameter :0.51M $~~~$	FLOPs:7.52G	Mean Acc.:98.53%	Max Acc.:98.53%
 
 **GaitSet_MS**:The average accuracy of GaitSet with multi-stream gait graph on the skeleton-based CASIA-B.
 |        |    0 |   18 |   36 |   54 |   72 |   90 |   108 |   126 |   144 |   162 |   180 |   mean |
