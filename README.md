@@ -74,7 +74,7 @@ python3 evaluate.py --help
 ### Main Results
 **Model1：MS-GLFGCN**:Top-1 Accuracy per probe angle excluding identical-view cases for the provided models on dataset.
 
-Parameter :0.51M $~~~$	FLOPs:7.52G$~~~$	Mean Acc.:98.53%$~~~$	Max Acc.:98.53%$~~~$
+Parameter :0.51M &ensp;	FLOPs:7.52G&ensp;	Mean Acc.:98.53%&ensp;	Max Acc.:98.53%&ensp;
 \
 **Model2：GaitSet_MS**:The average accuracy of GaitSet with multi-stream gait graph on the skeleton-based CASIA-B.
 |        |    0 |   18 |   36 |   54 |   72 |   90 |   108 |   126 |   144 |   162 |   180 |   mean |
