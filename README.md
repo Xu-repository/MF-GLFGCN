@@ -11,8 +11,9 @@
 ```shell
 cd ./data/new_data_plus_2/train_data/*.csv
 ```
-### Introduction to skeleton dataset:
-|        |    0 |   1 |   2 |   4 |   5 |   6 |
+### Skeleton dataset analysis:
+take the ../train_data/0.csv file as an example.
+|        |    0 |   1 |   2 |   4 |   5 |   6 | ... |
 |:-------|-----:|-----:|-----:|-----:|-----:|-----:|
 | 0 | -74.02 | -310.438 | 1833.24   | -80.907 | -492.666 | 1821.558 |
 | 1 | -64.242 | -295.929 | 1822.069 | -70.83 | -478.592 | 1810.891 |
@@ -21,6 +22,7 @@ cd ./data/new_data_plus_2/train_data/*.csv
 | 4 | -32.085 | -290.424 | 1830.682 | -41.851 | -476.189 | 1814.108  |
 | 5 | -19.257 | -292.719 | 1823.502 | -31.681 | -477.564 | 1806.558  |
 | 6 | -18.434 | -296.251 | 1819.715 | -28.079 | -481.906 |  1804.226 |
+| ... | ... | ... | ... | ... | ... |  ... |
 
 Each row represents a frame of skeleton data, Each of the three columns represents a joint with 3D coordinates(x, y and z axis) in millimeters.
 See the link for a detailed skeleton data introduction.[body-joints](https://learn.microsoft.com/en-us/previous-versions/azure/kinect-dk/body-joints )
@@ -76,14 +78,14 @@ python3 evaluate.py --help
 
 Parameter :&nbsp;0.51M &emsp;	FLOPs:&nbsp;7.52G&emsp;	Mean Acc.:&nbsp;98.53%&emsp;	Max Acc.:&nbsp;98.53%&emsp;\
 \
-**Model2：*GaitSet_MS***:&nbsp;The average accuracy of GaitSet with multi-stream gait graph on the skeleton-based CASIA-B.
+**Model2：*GaitSet_MS***:&nbsp;The average accuracy of GaitSet with our method on the skeleton-based CASIA-B.
 |        |    0 |   18 |   36 |   54 |   72 |   90 |   108 |   126 |   144 |   162 |   180 |   mean |
 |:-------|-----:|-----:|-----:|-----:|-----:|-----:|------:|------:|------:|------:|------:|-------:|
 | NM#5-6 | 74.2 | 81.1 | 83.2   | 82.8 | 79.7 | 82 |  83.8 |  87 |  86.6 |  86 |  73.9 |   81.85 |
 | BG#1-2 | 63.5 | 69.2 | 68.5 | 68.1 | 65.5 | 64.3 |  66.6   |  68.1 |  65.4 |  68.1 |  55.7 |   65.73 |
 | CL#1-2 | 50.9 | 56.7 | 55.2 | 51.9 | 53.3 | 52   |  52.1 |  49.6 |  49.5 |  50.6 |  44.1 |   51.45 |
 
-The average accuracy of GaitSet with multi-stream gait graph on the skeleton-based OU-MVLP.
+The average accuracy of GaitSet with our method on the skeleton-based OU-MVLP.
 |        |    0 |   15 |   30 |   45 |   60 |   75 |   90 |   180 |   195 |   210 |   225 | 240| 255| 270|   mean |
 |:-------|-----:|-----:|-----:|-----:|-----:|-----:|------:|------:|------:|------:|------:|-------:|-------:|-------:|-------:|
 | Acc. | 41.99 | 56.23 | 61.88   | 64.39 | 62.43 | 59.17 |  52.76 |  36.75 | 47.63 | 47.02 |  59.63 |   58.44 | 54.9| 48.84|53.72 |
