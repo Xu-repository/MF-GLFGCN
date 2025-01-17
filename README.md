@@ -52,10 +52,6 @@ python3 train.py ./data/new_data_plus_2/train_data \
                  --batch_size 16 \
                  --batch_size_validation 16 \
                  --embedding_layer_size 68 \
-                 --epochs 100\
-                 --learning_rate 1e-5 \
-                 --temp 0.01 \
-	         --use_multi_branch\
 ```
 
 Check `experiments/1_train_*.sh` to see the configurations used in the paper. 
