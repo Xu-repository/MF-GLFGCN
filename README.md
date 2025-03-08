@@ -47,11 +47,8 @@ To train the model you can run the `train.py` script. To see all options run:
 cd src
 export PYTHONPATH=${PWD}:$PYTHONPATH
 
-python3 train.py ./data/new_data_plus_2/train_data \
-                 --./data/new_data_plus_2/valid_data \
-                 --batch_size 16 \
-                 --batch_size_validation 16 \
-                 --embedding_layer_size 68 \
+python3 train.py --help
+
 ```
 
 Check `experiments/1_train_*.sh` to see the configurations used in the paper. 
